@@ -1,3 +1,74 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "./styles/colors.css";
+
+/* Font setting up */
+@font-face {
+    font-family: 'Agrandir';
+    src:
+        url('Client/src/assets/fonts/Agrandir-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir-GL';
+    src:
+        url('Client/src/assets/fonts/Agrandir-GrandLight.otf') format('opentype');
+}
+
+.font-agrandir {
+    font-family: 'Agrandir', serif;
+}
+
+.font-agrandir-gl {
+    font-family: 'Agrandir-GL', serif;
+}
+
+/*
+@layer base {
+    :root {
+        --text-rgb: 6, 8, 7;
+        --background-rgb: 251, 253, 252;
+        --primary-rgb: 3, 131, 115;
+        --secondary-rgb: 0, 204, 142;
+        --accent-rgb: 130, 230, 164;
+    }
+
+    .dark {
+        --text-rgb: 246, 248, 247;
+        --background-rgb: 2, 3, 3;
+        --primary-rgb: 125, 252, 237;
+        --secondary-rgb: 51, 255, 194;
+        --accent-rgb: 24, 123, 57;
+    }
+}
+
+@layer utilities {
+    .text-primary {
+        color: rgb(var(--primary-rgb)) !important;
+    }
+
+    .text-primary-opacity-10 {
+        color: rgba(var(--primary-rgb), 0.1) !important;
+    }
+
+    .text-primary-opacity-20 {
+        color: rgba(var(--primary-rgb), 0.2) !important;
+    }
+
+
+    .bg-primary {
+        background-color: rgb(var(--primary-rgb)) !important;
+    }
+
+    .bg-primary-opacity-10 {
+        background-color: rgba(var(--primary-rgb), 0.1) !important;
+    }
+
+    .bg-primary-opacity-20 {
+        background-color: rgba(var(--primary-rgb), 0.2) !important;
+    }
+
+}*/

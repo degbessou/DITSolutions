@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='text-3xl text-center font-bold'>
+      <div className='font-agrandir font-bold text-3xl text-center bg-secondary'>
         Salut le monde!
       </div>
     </>
