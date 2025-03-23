@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Header from './components/header.jsx'
 import Hero from './components/hero.jsx'
+import Carousel from './components/carousel.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
