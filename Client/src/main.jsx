@@ -6,12 +6,14 @@ import Hero from './components/hero.jsx'
 import Carousel from './components/carousel.jsx'
 import Footer_bottom from './components/footerB.jsx'
 import Footer_top from './components/footerT.jsx'
+import Divider from './components/divider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <Hero />
     <Footer_top />
+    <Divider />
     <Footer_bottom />
   </StrictMode>,
 )

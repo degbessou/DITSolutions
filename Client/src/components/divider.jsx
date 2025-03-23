@@ -1,6 +1,6 @@
 function Divider() {
     return (
-        <div className="divider">OR</div>
+        <div className="divider h-4 m-0 flex bg-accent"></div>
     );
 }
 
