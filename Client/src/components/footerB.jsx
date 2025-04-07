@@ -1,6 +1,6 @@
 function Footer_bottom() {
     return (
-        <footer className="footer sm:footer-horizontal bg-accent h-14 items-center px-8">
+        <footer className="footer sm:footer-horizontal bg-accent h-14 items-center px-24">
             <aside className="grid-flow-col items-center">
                 <svg
                     width="36"

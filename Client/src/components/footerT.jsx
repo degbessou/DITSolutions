@@ -1,6 +1,6 @@
 function Footer_top() {
     return (
-        <footer className="footer sm:footer-horizontal bg-accent text-base-content p-10 pl-96">
+        <footer className="footer sm:footer-horizontal bg-accent text-base-content p-10 md:justify-center sm:gap-10 lg:gap-40">
             <nav>
                 <h6 className="footer-title">Services</h6>
                 <a className="link link-hover">Branding</a>
@@ -22,14 +22,14 @@ function Footer_top() {
                 <a className="link link-hover">Cookie policy</a>
             </nav>
             <form>
-                <h6 className="footer-title ">Newsletter</h6>
+                <h6 className="footer-title">Newsletter</h6>
                 <fieldset className="w-80">
                     <label>Enter your email address</label>
                     <div className="join">
                         <input
                             type="text"
                             placeholder="username@site.com"
-                            className="input join-item" />
+                            className="input input-bordered join-item" />
                         <button className="btn bg-primary-opacity-90 join-item">Subscribe</button>
                     </div>
                 </fieldset>
